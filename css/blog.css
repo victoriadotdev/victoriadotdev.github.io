@@ -36,6 +36,9 @@ input[type=checkbox]:checked~#TableOfContents{display:block}
 @media (prefers-color-scheme:dark){
 .bio{background-color:var(--feature-background-color)}
 }
+.bio>.markdown p{text-align:left}
+.bio>#card {padding:1rem !important;}
+.bio>.markdown h1 {padding-top: 0 !important;}
 #article-list{margin:0}
 #article-list li{margin:0;padding:0 0 2em 0;list-style:none;font-family:var(--font-family)}
 @media all and (min-width:768px){
