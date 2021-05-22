@@ -22,8 +22,8 @@
 #menu-mobile ul li.menu-item a,#menu-mobile ul li.menu-item span{border-radius:8px;background-color:var(--feature-background-color);border-bottom:none}
 #menu-mobile ul li.menu-item:hover{background-color:var(--link-hover-underline)}
 .pagination{width:100%;margin:3em auto;display:flex;flex-direction:row;justify-content:space-between;align-items:center}
-.pagination .page-item{margin:0 .5em;list-style-type:none;text-align:center}
-.pagination .page-link{background:0 0}
+.pagination .page-item{margin:0 .5em;list-style-type:none;text-align:center;}
+.pagination .page-link{background:0 0;font-size:0.8rem;}
 .number{border-radius:8px;margin:4px 3px!important;background-color:var(--feature-background-color);box-shadow:3px 4px 0 var(--shadow);border-radius:8px;font-weight:600}
 .number:hover{text-shadow:none!important;transform:translate(1px,2px)!important;box-shadow:none!important}
 .number a{border-bottom:none;padding:.75em}

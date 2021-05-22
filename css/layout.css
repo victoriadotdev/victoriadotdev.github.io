@@ -15,7 +15,7 @@ header{background:var(--body-background-color);position:sticky;top:0;z-index:10;
 header{height:60px}
 }
 main{position:relative;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;margin:0 auto;min-height:100vh;width:var(--main-width)}
-section{margin-top:2rem}
+section{margin:2rem auto 0 auto}
 section#feed-card{padding:var(--content-padding)}
 .flex{display:flex;align-items:center}
 .row{display:flex;flex-direction:column;justify-content:space-around}
