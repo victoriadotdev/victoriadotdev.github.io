@@ -1,0 +1,222 @@
+<feed xmlns="http://www.w3.org/2005/Atom"><title>leadership on victoria.dev</title><link href="https://victoria.dev/tags/leadership/feed.xml" rel="self"/><link href="https://victoria.dev/tags/leadership/"/><updated>2021-02-01T04:02:54-06:00</updated><id>https://victoria.dev/tags/leadership/</id><author><name>Victoria Drake</name><email>hello@victoria.dev</email></author><generator>Hugo -- gohugo.io</generator><entry><title type="html">What tech leaders do before going on vacation</title><link href="https://victoria.dev/blog/what-tech-leaders-do-before-going-on-vacation/"/><id>https://victoria.dev/blog/what-tech-leaders-do-before-going-on-vacation/</id><author><name>Victoria Drake</name></author><published>2021-02-01T04:02:54-06:00</published><updated>2021-05-23T20:35:12+00:00</updated><content type="html"><![CDATA[<p>As a technical person who leads a technical team, I know firsthand that it can be easy to get lost in finishing up your own work before a vacation. It takes a bit of dedicated attention to ensure you don&rsquo;t neglect the day-to-day tasks that don’t vanish while you’re away.</p>
+<p>Here’s a pre-PTO checklist to make sure you’ve taken care of those responsibilities before you take off for a much-deserved vacation.</p>
+<h2 id="does-everyone-know-whos-supposed-to-do-what">Does everyone know who&rsquo;s supposed to do what?</h2>
+<p>A lot of information lives in your head alone, despite valiant efforts to <a href="/blog/how-to-write-good-documentation/">document all the things</a>. That’s the nature of the work. Instead of attempting to disseminate everything you’re thinking through, focus on the work your team will do while you’re away.</p>
+<p>Hopefully, you already have a <a href="/blog/priority/">centralized list of priorities</a>. Ensure it’s up to date, and that all the tasks that could conceivably be done during your time off have been assigned a caretaker.</p>
+<h2 id="are-there-any-decisions-waiting-on-me">Are there any decisions waiting on me?</h2>
+<p>Review notes, discussion boards, and ask your team directly if anyone is waiting on an answer from you. If you’re able to make a decision before your vacation, do so. If not, delegate the decision to someone else with a clear explanation of your overall goals and any applicable parameters.</p>
+<h2 id="dont-neglect-internal-auto-responders">Don’t neglect internal auto-responders</h2>
+<p>Set up auto-responders for communications from the public, as well as from your team! While a response from your public email may say that you’re out of the office and when you expect to be back, an internal auto-responder is an opportunity to provide even more value.</p>
+<p>It could take the form of an email response for your internal inbox, but a post on your team’s message board or chat channel also works. Let people know where to look for information they might need, who to turn to if they need help while you’re away, and where to find your <a href="/blog/priority/">centralized priority list</a> so they can decide what to work on next.</p>
+<h2 id="tidy-up-loose-ends">Tidy up loose ends</h2>
+<p>Finally, close out work that depends on you and that no one else can do. If it’s work you can delegate with some written guidance attached, you might choose this route instead of attempting to finish it yourself in a hurry.</p>
+<p>If you hand off any work, ensure that you communicate clear instructions as well as any deadlines.</p>
+<h2 id="set-expectations-and-follow-them">Set expectations and follow them</h2>
+<p>Your vacation is precious time to recoup, relax, and make room for those creative moments that only visit a quiet mind. Ensure you set expectations with your team for how often you might check in, if at all.</p>
+<p>If you do decide to log in while you&rsquo;re away, be sure to protect your privacy and your company data with a <a href="/blog/vpn/">privacy-focused VPN</a> on all your devices.</p>
+<h2 id="responsible-vacation-planning-for-technology-leaders">Responsible vacation planning for technology leaders</h2>
+<p>I hope you benefit from the ideas in this post. Here&rsquo;s an easy way to put them into practice right now: grab this post as a <a href="https://gum.co/pre-pto">pre-PTO Notion checklist template</a> and instantly gain conscientious leadership powers!</p>
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<p><a class="gumroad-button" href="https://gum.co/IVxBm?wanted=true" target="_blank">Get checklist as a Notion template</a></p>
+<p>Don&rsquo;t leave your team members hanging while you&rsquo;re away! If you have other ideas for good things to do before your vacation, <a href="/contact">I&rsquo;d love to hear about it</a>.</p>
+]]></content></entry><entry><title type="html">Make your team more productive by literally doing one thing</title><link href="https://victoria.dev/blog/make-your-team-more-productive-by-literally-doing-one-thing/"/><id>https://victoria.dev/blog/make-your-team-more-productive-by-literally-doing-one-thing/</id><author><name>Victoria Drake</name></author><published>2020-12-07T15:01:25-06:00</published><updated>2021-05-23T20:35:12+00:00</updated><content type="html"><![CDATA[<p>In the tech teams I lead, &ldquo;priority&rdquo; has no plural form.</p>
+<p>Whether you&rsquo;re leading a team of people or leading yourself, it&rsquo;s important to take account of all the important things that need doing in your organization. This does not mean that everything can be equally important.</p>
+<p>Logically, everything can&rsquo;t be. Tasks are typically interdependent, and there&rsquo;s always one task on which another depends. Tasks can be time-sensitive. Certain tasks might block a logical path towards a goal.</p>
+<p>It&rsquo;s the duty of a leader to make hard calls and decide which tasks are most important out of everything that needs doing. This necessitates comparing one to another, which is much easier to do with a centralized to-do list.</p>
+<p>Here&rsquo;s how this one simple change to your perspective on to-do lists can help to build happier and more productive teams.</p>
+<h2 id="keep-a-central-prioritized-to-do-list">Keep a central prioritized to-do list</h2>
+<p><img src="prioritize.png" alt="A cartoon of a stick figure swinging on a rope ro plant a post-it note"></p>
+<p>Avoid working in silos. A single centralized list can make it easier for you and your team members to see what&rsquo;s being worked on. With all tasks out in the open, it&rsquo;s easier for people to spot opportunities for helping each other out and where they can contribute.</p>
+<p>Encouraging a culture of openness can help people feel more comfortable asking questions, asking for help, and proposing ideas and improvements. Tracking work in the open also means that no one is left wondering what status a task is currently in.</p>
+<p>For team leaders, a single list makes it easier to compare and prioritize tasks. This benefits team members by providing a completely unambiguous and transparent accounting of what needs doing next. Whichever task is most important, for the whole organization, is on top.</p>
+<h2 id="priorities-with-autonomy">Priorities with autonomy</h2>
+<p>A single priority doesn&rsquo;t necessarily pigeonhole someone into doing a task they don&rsquo;t feel cut out for. Each member of your team has different strengths, skill sets, and diverse ways of thinking. You can take full advantage of this by encouraging autonomy in task selection.</p>
+<p><img src="task-selection.png" alt="A cartoon of a stick figure climbing a ladder to reach a post-it note"></p>
+<p>Have people choose whichever task is nearest to the top that they&rsquo;d like to tackle. They might pick the highest priority task that&rsquo;s in their wheelhouse, or experiment with a higher one that&rsquo;s in a domain they&rsquo;d like to improve their skills at.</p>
+<p>Embrace opportunities for cross-training. If tasks high up on the list fall in a category that only one or a few people on your team are experts in, have your experts partner up with another team member who&rsquo;s taking on the task. By pooling your resources to cross-train across domains, you multiply the capabilities of each team member and your team as a result.</p>
+<p>When a task is especially time-sensitive, have several team members swarm on it and distribute the work according to their interests or strengths.</p>
+<h2 id="make-yourself-redundant">Make yourself redundant</h2>
+<p>Working off a single prioritized to-do list works best when your team members can take on tasks as independently as possible. This is especially important in remote teams where people work asynchronously.</p>
+<p>If you&rsquo;re a leader and find that your team members frequently ask you what they should do next, you could be making your team dependent on you. Ask yourself if you&rsquo;re unnecessarily gatekeeping information that would let your team be more autonomous.</p>
+<p>A team that overly depends on their leader is not an efficient one. Individual people, such as yourself, don&rsquo;t scale. Don&rsquo;t become a bottleneck to your team&rsquo;s productivity. A successful leader should be able to take several days off on short notice without productivity grinding to a halt.</p>
+<p><img src="add-resources.png" alt="A cartoon of a stick figure carrying books to a wall of post-it notes"></p>
+<p>To support your team&rsquo;s ability to work without you, make your team, product, and company goals <em>painfully</em> available. Put them where people hang out &ndash; your team&rsquo;s message board, chat channel, or document repository, for example. No one should be at a loss when asked what the team wants to achieve next, and why.</p>
+<p>Make any applicable resources, style guides, product documents, or links to external documentation painfully available as well. If your team makes a decision about how something should be done, write it down. Don&rsquo;t rely on yours or anyone else&rsquo;s meat brain to remember an important decision, nor make yourself the only resource for recalling it.</p>
+<p>Make yourself redundant when it comes to day-to-day work. Doing so empowers your team members to do work without you, think through solutions on their own, and propose paths of action that you probably wouldn&rsquo;t have thought of yourself.</p>
+<h2 id="build-happier-and-more-productive-teams">Build happier and more productive teams</h2>
+<p>From first-hand experience as both a team member and leader, I&rsquo;ve seen how encouraging a culture of openness, cross-training, and autonomy makes for happier team members and more productive teams. A single prioritized to-do list, coupled with available documentation and resources, opens the gates to let your technical team be maximally productive.</p>
+<p>By removing bottlenecks, you allow people to make more decisions on their own and take ownership of their work. That&rsquo;s a technical team I&rsquo;d be proud to lead.</p>
+]]></content></entry><entry><title type="html">Django project best practices to keep your developers happy</title><link href="https://victoria.dev/blog/django-project-best-practices-to-keep-your-developers-happy/"/><id>https://victoria.dev/blog/django-project-best-practices-to-keep-your-developers-happy/</id><author><name>Victoria Drake</name></author><published>2020-09-22T04:55:19-04:00</published><updated>2021-05-23T20:35:12+00:00</updated><content type="html"><![CDATA[<p>Do you want your team to <em>enjoy</em> your development workflow? Do you think building software should be <em>fun and existentially fulfilling?</em> If so, <em>this is the post</em> for you!</p>
+<p>I&rsquo;ve been developing with Django for years, and I&rsquo;ve never been happier with my Django project set up than I am right now. Here&rsquo;s how I&rsquo;m making a day of developing with Django the most relaxing and enjoyable development experience possible for myself and my engineering team.</p>
+<h2 id="a-custom-cli-tool-for-your-django-project">A custom CLI tool for your Django project</h2>
+<p>Instead of typing:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">python3 -m venv env
+<span class="nb">source</span> env/bin/activate
+pip install -r requirements.txt
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py collectstatic
+python3 manage.py runserver
+</code></pre></div><p>Wouldn&rsquo;t it be much nicer to type:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">make start
+</code></pre></div><p>&hellip;and have all that happen for you? I think so!</p>
+<p>We can do that with a self-documenting Makefile! Here&rsquo;s one I frequently use when developing my Django applications, like <a href="https://applybyapi.com/">ApplyByAPI.com</a>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-Makefile" data-lang="Makefile"><span class="nv">VENV</span> <span class="o">:=</span> env
+<span class="nv">BIN</span> <span class="o">:=</span> <span class="k">$(</span>VENV<span class="k">)</span>/bin
+<span class="nv">PYTHON</span> <span class="o">:=</span> <span class="k">$(</span>BIN<span class="k">)</span>/python
+<span class="nv">SHELL</span> <span class="o">:=</span> /bin/bash
+
+<span class="err">include</span> <span class="err">.env</span>
+
+<span class="nf">.PHONY</span><span class="o">:</span> <span class="n">help</span>
+<span class="nf">help</span><span class="o">:</span> <span class="c">## Show this help
+</span><span class="c"></span>    @egrep -h <span class="s1">&#39;\s##\s&#39;</span> <span class="k">$(</span>MAKEFILE_LIST<span class="k">)</span> <span class="p">|</span> awk <span class="s1">&#39;BEGIN {FS = &#34;:.*?## &#34;}; {printf &#34;\033[36m%-20s\033[0m %s\n&#34;, $$1, $$2}&#39;</span>
+
+<span class="nf">.PHONY</span><span class="o">:</span> <span class="n">venv</span>
+<span class="nf">venv</span><span class="o">:</span> <span class="c">## Make a new virtual environment
+</span><span class="c"></span>    python3 -m venv <span class="k">$(</span>VENV<span class="k">)</span> <span class="o">&amp;&amp;</span> <span class="nb">source</span> <span class="k">$(</span>BIN<span class="k">)</span>/activate
+
+<span class="nf">.PHONY</span><span class="o">:</span> <span class="n">install</span>
+<span class="nf">install</span><span class="o">:</span> <span class="n">venv</span> <span class="c">## Make venv and install requirements
+</span><span class="c"></span>    <span class="k">$(</span>BIN<span class="k">)</span>/pip install --upgrade -r requirements.txt
+
+<span class="nf">freeze</span><span class="o">:</span> <span class="c">## Pin current dependencies
+</span><span class="c"></span>    <span class="k">$(</span>BIN<span class="k">)</span>/pip freeze &gt; requirements.txt
+
+<span class="nf">migrate</span><span class="o">:</span> <span class="c">## Make and run migrations
+</span><span class="c"></span>    <span class="k">$(</span>PYTHON<span class="k">)</span> manage.py makemigrations
+    <span class="k">$(</span>PYTHON<span class="k">)</span> manage.py migrate
+
+<span class="nf">db-up</span><span class="o">:</span> <span class="c">## Pull and start the Docker Postgres container in the background
+</span><span class="c"></span>    docker pull postgres
+    docker-compose up -d
+
+<span class="nf">db-shell</span><span class="o">:</span> <span class="c">## Access the Postgres Docker database interactively with psql. Pass in DBNAME=&lt;name&gt;.
+</span><span class="c"></span>    docker <span class="nb">exec</span> -it container_name psql -d <span class="k">$(</span>DBNAME<span class="k">)</span>
+
+<span class="nf">.PHONY</span><span class="o">:</span> <span class="n">test</span>
+<span class="nf">test</span><span class="o">:</span> <span class="c">## Run tests
+</span><span class="c"></span>    <span class="k">$(</span>PYTHON<span class="k">)</span> manage.py <span class="nb">test</span> application --verbosity<span class="o">=</span><span class="m">0</span> --parallel --failfast
+
+<span class="nf">.PHONY</span><span class="o">:</span> <span class="n">run</span>
+<span class="nf">run</span><span class="o">:</span> <span class="c">## Run the Django server
+</span><span class="c"></span>    <span class="k">$(</span>PYTHON<span class="k">)</span> manage.py runserver
+
+<span class="nf">start</span><span class="o">:</span> <span class="n">install</span> <span class="n">migrate</span> <span class="n">run</span> <span class="c">## Install requirements, apply migrations, then start development server
+</span></code></pre></div><p>You&rsquo;ll notice the presence of the line <code>include .env</code> above. This ensures <code>make</code> has access to environment variables stored in a file called <code>.env</code>. This allows Make to utilize these variables in its commands, for example, the name of my virtual environment, or to pass in <code>$(DBNAME)</code> to <code>psql</code>.</p>
+<p>What&rsquo;s with that weird &ldquo;<code>##</code>&rdquo; comment syntax? A Makefile like this gives you a handy suite of command-line aliases you can check in to your Django project. It&rsquo;s very useful so long as you&rsquo;re able to remember what all those aliases are.</p>
+<p>The <code>help</code> command above, which runs by default, prints a helpful list of available commands when you run <code>make</code> or <code>make help</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">help                 Show this help
+venv                 Make a new virtual environment
+install              Make venv and install requirements
+migrate              Make and run migrations
+db-up                Pull and start the Docker Postgres container in the background
+db-shell             Access the Postgres Docker database interactively with psql
+test                 Run tests
+run                  Run the Django server
+start                Install requirements, apply migrations, then start development server
+</code></pre></div><p>All the usual Django commands are covered, and we&rsquo;ve got a <code>test</code> command that runs our tests with the options we prefer. Brilliant.</p>
+<p>You can read my full <a href="/blog/how-to-create-a-self-documenting-makefile/">post about self-documenting Makefiles here</a>, which also includes an example Makefile using <code>pipenv</code>.</p>
+<h2 id="save-your-brainpower-with-pre-commit-hooks">Save your brainpower with pre-commit hooks</h2>
+<p>I previously wrote about some <a href="/blog/technical-ergonomics-for-the-efficient-developer/">technical ergonomics</a> that can make it a lot easier for teams to develop great software.</p>
+<p>One area that&rsquo;s a no-brainer is using pre-commit hooks to lint code prior to checking it in. This helps to ensure the quality of the code your developers check in, but most importantly, ensures that no one on your team is spending time trying to remember if it should be single or double quotes or where to put a line break.</p>
+<p>The confusingly-named <a href="https://pre-commit.com/">pre-commit framework</a> is an otherwise fantastic way to keep hooks (which are not included in cloned repositories) consistent across local environments.</p>
+<p>Here is my configuration file, <code>.pre-commit-config.yaml</code>, for my Django projects:</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">fail_fast</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w"></span><span class="nt">repos</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span>- <span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com/pre-commit/pre-commit-hooks</span><span class="w">
+</span><span class="w">    </span><span class="nt">rev</span><span class="p">:</span><span class="w"> </span><span class="l">v3.1.0</span><span class="w">
+</span><span class="w">    </span><span class="nt">hooks</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">detect-aws-credentials</span><span class="w">
+</span><span class="w">  </span>- <span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com/psf/black</span><span class="w">
+</span><span class="w">    </span><span class="nt">rev</span><span class="p">:</span><span class="w"> </span><span class="m">19.</span><span class="l">3b0</span><span class="w">
+</span><span class="w">    </span><span class="nt">hooks</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">black</span><span class="w">
+</span><span class="w">  </span>- <span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com/asottile/blacken-docs</span><span class="w">
+</span><span class="w">    </span><span class="nt">rev</span><span class="p">:</span><span class="w"> </span><span class="l">v1.7.0</span><span class="w">
+</span><span class="w">    </span><span class="nt">hooks</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">blacken-docs</span><span class="w">
+</span><span class="w">        </span><span class="nt">additional_dependencies</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">black==19.3b0]</span><span class="w">
+</span><span class="w">  </span>- <span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l">local</span><span class="w">
+</span><span class="w">    </span><span class="nt">hooks</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">markdownlint</span><span class="w">
+</span><span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">markdownlint</span><span class="w">
+</span><span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Lint Markdown files&#34;</span><span class="w">
+</span><span class="w">        </span><span class="nt">entry</span><span class="p">:</span><span class="w"> </span><span class="l">markdownlint &#39;**/*.md&#39; --fix --ignore node_modules --config &#34;./.markdownlint.json&#34;</span><span class="w">
+</span><span class="w">        </span><span class="nt">language</span><span class="p">:</span><span class="w"> </span><span class="l">node</span><span class="w">
+</span><span class="w">        </span><span class="nt">types</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">markdown]</span><span class="w">
+</span></code></pre></div><p>These hooks check for accidental secret commits, format Python files using <a href="https://github.com/psf/black">Black</a>, format Python snippets in Markdown files using <a href="https://github.com/asottile/blacken-docs"><code>blacken-docs</code></a>, and <a href="https://github.com/igorshubovych/markdownlint-cli">lint Markdown files</a> as well. To install them, just type <code>pre-commit install</code>.</p>
+<p>There are likely even more useful hooks available for your particular use case: see <a href="https://pre-commit.com/hooks.html">supported hooks</a> to explore.</p>
+<h2 id="useful-gitignores">Useful gitignores</h2>
+<p>An underappreciated way to improve your team&rsquo;s daily development experience is to make sure your project uses a well-rounded <code>.gitignore</code> file. It can help prevent files containing secrets from being committed, and can additionally save developers hours of tedium by ensuring you&rsquo;re never sifting through a <code>git diff</code> of generated files.</p>
+<p>To efficiently create a <a href="https://www.toptal.com/developers/gitignore/api/python,django">gitignore for Python and Django projects</a>, Toptal&rsquo;s <a href="https://gitignore.io">gitignore.io</a> can be a nice resource for generating a robust <code>.gitignore</code> file.</p>
+<p>I still recommend examining the generated results yourself to ensure that ignored files suit your use case, and that nothing you want ignored is commented out.</p>
+<h2 id="continuous-testing-with-github-actions">Continuous testing with GitHub Actions</h2>
+<p>If your team works on GitHub, setting up a testing process with Actions is low-hanging fruit.</p>
+<p>Tests that run in a consistent environment on every pull request can help eliminate &ldquo;works on my machine&rdquo; conundrums, as well as ensure no one&rsquo;s sitting around waiting for a test to run locally.</p>
+<p>A hosted CI environment like GitHub Actions can also help when running integration tests that require using managed services resources. You can use <a href="https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets">encrypted secrets in a repository</a> to grant the Actions runner access to resources in a testing environment, without worrying about creating testing resources and access keys for each of your developers to use.</p>
+<p>I&rsquo;ve written on many occasions about setting up Actions workflows, including <a href="/blog/a-lightweight-tool-agnostic-ci/cd-flow-with-github-actions/">using one to run your Makefile</a>, and <a href="/blog/publishing-github-event-data-with-github-actions-and-pages/">how to integrate GitHub event data</a>. GitHub even <a href="https://github.blog/2020-06-26-github-action-hero-victoria-drake/">interviewed me about Actions</a> once.</p>
+<p>For Django projects, here&rsquo;s a GitHub Actions workflow that runs tests with a consistent Python version whenever someone opens a pull request in the repository.</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Run Django tests</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w"> </span><span class="l">pull_request</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">test</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Set up Python</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/setup-python@v2</span><span class="w">
+</span><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">python-version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;3.8&#39;</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install dependencies</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">make install</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Run tests</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">make test</span><span class="w">
+</span></code></pre></div><p>For the installation and test commands, I&rsquo;ve simply utilized the <a href="#a-custom-cli-tool-for-your-django-project">Makefile</a> that&rsquo;s been checked in to the repository. A benefit of using your Makefile commands in your CI test workflows is that you only need to keep them updated in one place &ndash; your Makefile! No more &ldquo;why is this working locally but not in CI??!?&rdquo; headaches.</p>
+<p>If you want to step up your security game, you can add <a href="https://github.com/victoriadrake/django-security-check">Django Security Check</a> as an Action too.</p>
+<h2 id="set-up-your-django-project-for-success">Set up your Django project for success</h2>
+<p>Want to help keep your development team happy? Set them up for success with these best practices for Django development. Remember, an ounce of brainpower is worth a pound of software!</p>
+]]></content></entry><entry><title type="html">How to choose and care for a secure open source project</title><link href="https://victoria.dev/blog/how-to-choose-and-care-for-a-secure-open-source-project/"/><id>https://victoria.dev/blog/how-to-choose-and-care-for-a-secure-open-source-project/</id><author><name>Victoria Drake</name></author><published>2020-05-25T05:53:09-04:00</published><updated>2021-05-23T20:35:12+00:00</updated><content type="html"><![CDATA[<p>There is a rather progressive sect of the software development world that believes that most people would be a lot happier and get a lot more work done if they just stopped building things that someone else has already built and is offering up for free use. They&rsquo;re called the open source community. They want you to take their stuff.</p>
+<p><img src="wheels.png" alt="A comic I drew about using other people&rsquo;s stuff, with the wheel as an example."></p>
+<p>Besides existing without you having to lift a finger, open source tools and software have some distinct advantages. Especially in the case of well-established projects, it&rsquo;s highly likely that someone else has already worked out all the most annoying bugs for you. Thanks to the ease with which users can view and modify source code, it&rsquo;s also more likely that a program has been tinkered with, improved, and secured over time. When many developers contribute, they bring their own unique expertise and experiences. This can result in a product far more robust and capable than one a single developer can produce.</p>
+<p>Of course, being as varied as the people who build them, not all open source projects are created equal, nor maintained to be equally secure. There are many factors that affect a project&rsquo;s suitability for your use case. Here are a few general considerations that make a good starting point when choosing an open source project.</p>
+<h2 id="how-to-choose-an-open-source-project">How to choose an open source project</h2>
+<p>As its most basic requirements, a good software project is reliable, easy to understand, and has up-to-date components and security. There are several indicators that can help you make an educated guess about whether an open source project satisfies these criteria.</p>
+<h3 id="whos-using-it">Who&rsquo;s using it</h3>
+<p>Taken in context, the number of people already using an open source project may be indicative of how good it is. If a project has a hundred users, for instance, it stands to reason that someone has tried to use it at least a hundred times before you found it. Thus by the ancient customs of &ldquo;I don&rsquo;t know what&rsquo;s in that cave, you go first,&rdquo; it&rsquo;s more likely to be fine.</p>
+<p>You can draw conclusions about a project&rsquo;s user base by looking at available statistics. Depending on your platform, these may include the number of downloads, reviews, issues or tickets, comments, contributions, forks, or &ldquo;stars,&rdquo; whatever those are.</p>
+<p>Evaluate social statistics on platforms like GitHub with a grain of salt. They can help you determine how popular a project may be, but only in the same way that restaurant review apps can help you figure out if you should eat at Foo&rsquo;s Grill &amp; Bar. Depending on where Foo&rsquo;s Grill &amp; Bar is, when it opened, and how likely people are to be near it when the invariable steak craving should call, having twenty-six reviews may be a good sign or a terrible one. While you would not expect a project that addresses a very obscure use case or technology to have hundreds of users, having a few active users is, in such a case, just as confidence-inspiring.</p>
+<p>External validation can also be useful. For example, packages that are included in a Linux operating system distribution (distro) must conform to stringent standards and undergo vetting. Choosing software that is included in a distro&rsquo;s default repositories can mean it&rsquo;s more likely to be secure.</p>
+<p>Perhaps one of the best indications to look for is whether a project&rsquo;s development team is using their own project. Look for issues, discussions, or blog posts that show that the project&rsquo;s creators and maintainers are using what they&rsquo;ve built themselves. Commonly referred to as <a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">&ldquo;eating your own dog food,&quot;</a> or &ldquo;dogfooding,&rdquo; it&rsquo;s an indicator that the project is most likely to be well-maintained by its developers.</p>
+<h3 id="whos-building-it">Who&rsquo;s building it</h3>
+<p>The main enemy of good open source software is usually a lack of interest. The parties involved in an open source project can make the difference between a flash-in-the-pan library and a respected long-term utility. Multiple committed maintainers, even making contributions in their spare time, have a much higher success rate of sustaining a project and generating interest.</p>
+<p>Projects with healthy interest are usually supported by, and in turn cultivate, a community of contributors and users. New contributors may be actively welcomed, clear guides are available explaining how to help, and project maintainers are available and approachable when people have inevitable questions. Some communities even have chat rooms or forums where people can interact outside of contributions. Active communities help sustain project interest, relevance, and its ensuing quality.</p>
+<p>In a less organic fashion, a project can also be sustained through organizations that sponsor it. Governments and companies with financial interest are open source patrons too, and a project that enjoys public sector use or financial backing has added incentive to remain relevant and useful.</p>
+<h3 id="how-alive-is-it">How alive is it</h3>
+<p>The recency and frequency of an open source project&rsquo;s activity is perhaps the best indicator of how much attention is likely paid to its security. Look at releases, commit history, changelogs, or documentation revisions to determine if a project is active. As projects vary in size and scope, here are some general things to look for.</p>
+<p>Maintaining security is an ongoing endeavor that requires regular monitoring and updates, especially for projects with third-party components. These may be libraries or any part of the project that relies on something outside itself, such as a payment gateway integration. An inactive project is more likely to have outdated code or use outdated versions of components. For a more concrete determination, you can research a project&rsquo;s third-party components and compare their most recent patches or updates with the project&rsquo;s last updates.</p>
+<p>Projects without third-party components may have no outside updates to apply. In these cases, you can use recent activity and release notes to determine how committed a project&rsquo;s maintainers may be. Generally, active projects should show updates within the last months, with a notable release within the last year. This can be a good indication of whether the project is using an up-to-date version of its language or framework.</p>
+<p>You can also judge how active a project may be by looking at the project maintainers themselves. Active maintainers quickly respond to feedback or new issues, even if it&rsquo;s just to say, &ldquo;We&rsquo;re on it.&rdquo; If the project has a community, its maintainers are a part of it. They may have a dedicated website or write regular blogs. They may offer ways to contact them directly and privately, especially to raise security concerns.</p>
+<h3 id="can-you-understand-it">Can you understand it</h3>
+<p>Having documentation is a baseline requirement for a project that&rsquo;s intended for anyone but its creator to use. Good open source projects have documentation that is easy to follow, honest, and thorough.</p>
+<p>Having <a href="/blog/word-bugs-in-software-documentation-and-how-to-fix-them/">well-written documentation</a> is one way a project can stand out and demonstrate the thoughtfulness and dedication of its maintainers. A &ldquo;Getting Started&rdquo; section may detail all the requirements and initial set up for running the project. An accurate list of topics in the documentation enables users to quickly find the information they need. A clear license statement leaves no doubt as to how the project can be used, and for what purposes. These are characteristic aspects of documentation that serves its users.</p>
+<p>A project that is following sound coding practices likely has code that is as readable as its documentation. Code that is easy to read lends itself to being understood. Generally, it has clearly defined and appropriately-named functions and variables, a logical flow, and apparent purpose. Readable code is easier to fix, secure, and build upon.</p>
+<h3 id="how-compatible-is-it">How compatible is it</h3>
+<p>A few factors will determine how compatible a project is with your goals. These are objective qualities, and can be determined by looking at a project&rsquo;s repository files. They include:</p>
+<ul>
+<li>Code language</li>
+<li>Specific technologies or frameworks</li>
+<li>License compatibility</li>
+</ul>
+<p>Compatibility doesn&rsquo;t necessarily mean a direct match. Different code languages can interact with each other, as can various technologies and frameworks. You should carefully read a project&rsquo;s license to understand if it permits usage for your goal, or if it is compatible with a license you would like to use.</p>
+<p>Ultimately, a project that satisfies all these criteria may still not quite suit your use case. Part of the beauty of open source software, however, is that you may still benefit from it by making alterations that better suit your usage. If those alterations make the project better for everyone, you can pay it back and pay it forward by contributing your work to the project.</p>
+<h2 id="proper-care-and-feeding-of-an-open-source-project">Proper care and feeding of an open source project</h2>
+<p>Once you adopt an open source project, a little attention is required to make sure it continues to be a boon to your goals. While its maintainers will look after the upstream project files, you alone are responsible for your own copy. Like all software, your open source project must be well-maintained in order to remain as secure and useful as possible.</p>
+<p>Have a system that provides you with notifications when updates for your software are made available. Update software promptly, treating each patch as if it were vital to security; it may well be. Keep in mind that open source project creators and maintainers are, in most cases, acting only out of the goodness of their own hearts. If you&rsquo;ve got a particularly awesome one, its developers may make updates and security patches available on a regular basis. It&rsquo;s up to you to keep tabs on updates and promptly apply them.</p>
+<p>As with most things in software, keeping your open source additions modular can come in handy. You might use <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">git submodules</a>, branches, or environments to isolate your additions. This can make it easier to apply updates or pinpoint the source of any bugs that arise.</p>
+<p>So although an open source project may cost no money, <em>caveat emptor,</em> which means, &ldquo;Jimmy, if we get you a puppy, it&rsquo;s your responsibility to take care of it.&rdquo;</p>
+]]></content></entry></feed>
