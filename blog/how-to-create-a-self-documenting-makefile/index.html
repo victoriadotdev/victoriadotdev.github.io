@@ -7,10 +7,10 @@
 <a class="p-category tag button" href=/tags/tech-team/>tech team
 </a>&nbsp;</span>
 <span rel=author class="p-author h-card"><img class="u-photo hidden" src=/img/victoria_headshot.jpg>
-<span class="p-name hidden" rel=me>Victoria Drake</span><p class=metadata id=date><time class="hidden dt-published">2020-08-05 08:55:19 -0400 -0400</time>
+<span class="p-name hidden" rel=me>Victoria Drake</span></span><p class=metadata id=date><time class="hidden dt-published">2020-08-05 08:55:19 -0400 -0400</time>
 <a class=u-url href=https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/>August 5, 2020</a>
-<span class=dt-updated>&nbsp;<em>Updated: May 22, 2021</em></span>
-<span>&nbsp;4 min read</span></p></span></p><div class=page-separator><hr></div><div class="markdown e-content"><p>My new favorite way to completely underuse a Makefile? Creating personalized, per-project repository workflow command aliases that you can check in.</p><p>Can a Makefile improve your DevOps and keep developers happy? How awesome would it be if a new developer working on your project didn&rsquo;t start out by copying and pasting commands from your README? What if instead of:</p><div class=highlight><pre class=chroma><code class=language-sh data-lang=sh>pip3 install pipenv
+<span class=dt-updated>&nbsp;<em>Updated: May 23, 2021</em></span>
+<span>&nbsp;4 min read</span></p></p><div class=page-separator><hr></div><div class="markdown e-content"><p>My new favorite way to completely underuse a Makefile? Creating personalized, per-project repository workflow command aliases that you can check in.</p><p>Can a Makefile improve your DevOps and keep developers happy? How awesome would it be if a new developer working on your project didn&rsquo;t start out by copying and pasting commands from your README? What if instead of:</p><div class=highlight><pre class=chroma><code class=language-sh data-lang=sh>pip3 install pipenv
 pipenv shell --python 3.8
 pipenv install --dev
 npm install
@@ -47,7 +47,7 @@ update               Do apt upgrade and autoremove
 </code></pre></div><p>Now we have our very own personalized and project-specific CLI tool!</p><p>The possibilities for improving your DevOps flow with a self-documenting Makefile are almost endless. You can use one to simplify any workflow and produce some very happy developers.</p><p>Please enjoy the (live!) Makefile I use to manage and develop this Hugo site. I hope it inspires you!</p><details><summary>My Hugo site Makefile</summary><div class=highlight><pre class=chroma><code class=language-Makefile data-lang=Makefile>
 <span class=nv>SHELL</span> <span class=o>:=</span> /bin/bash
 <span class=nf>.POSIX</span><span class=o>:</span>
-<span class=nf>.PHONY</span><span class=o>:</span> <span class=n>help</span> <span class=n>env</span> <span class=n>install</span> <span class=n>upgrade</span>-<span class=n>hugo</span> <span class=n>lint</span> <span class=n>serve</span> <span class=n>build</span> <span class=n>start</span> <span class=n>initial</span>
+<span class=nf>.PHONY</span><span class=o>:</span> <span class=n>help</span> <span class=n>env</span> <span class=n>install</span> <span class=n>upgrade</span>-<span class=n>hugo</span> <span class=n>serve</span> <span class=n>build</span> <span class=n>start</span> <span class=n>initial</span>
 
 <span class=nf>help</span><span class=o>:</span> <span class=c>## Show this help
 </span><span class=c></span>	@egrep -h <span class=s1>&#39;\s##\s&#39;</span> <span class=k>$(</span>MAKEFILE_LIST<span class=k>)</span> <span class=p>|</span> sort <span class=p>|</span> awk <span class=s1>&#39;BEGIN {FS = &#34;:.*?## &#34;}; {printf &#34;\033[36m%-20s\033[0m %s\n&#34;, $$1, $$2}&#39;</span>
@@ -74,15 +74,6 @@ update               Do apt upgrade and autoremove
 </span><span class=se></span>	<span class=nb>cd</span> .. <span class=o>&amp;&amp;</span> <span class=se>\
 </span><span class=se></span>	rm -rf tmp/
 	hugo version
-
-<span class=nv>DATEOF</span><span class=o>:=</span><span class=k>$(</span>shell date +%FT%T<span class=k>)</span>
-
-<span class=nf>entry</span><span class=o>:</span> <span class=c>## Launch $EDITOR with a new entry
-</span><span class=c></span>	<span class=nb>printf</span> <span class=s1>&#39;%b\n&#39;</span> <span class=s2>&#34;---\ntitle: </span><span class=k>$(</span>shell uuidgen<span class=k>)</span><span class=s2> \ndate: </span><span class=k>$(</span>DATEOF<span class=k>)</span><span class=s2> \ncategories: \ntags: \n---\n\n&#34;</span> &gt; content/neofeed/<span class=k>$(</span>DATEOF<span class=k>)</span>.md
-	<span class=k>$(</span>EDITOR<span class=k>)</span> content/neofeed/<span class=k>$(</span>DATEOF<span class=k>)</span>.md
-
-<span class=nf>lint</span><span class=o>:</span> <span class=c>## Lint files
-</span><span class=c></span>	pre-commit run --all-files
 
 <span class=nf>serve</span><span class=o>:</span> <span class=c>## Run the local development server
 </span><span class=c></span>	hugo serve --enableGitInfo --disableFastRender --environment development
