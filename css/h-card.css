@@ -1,11 +1,11 @@
-.h-card{flex-direction:column;align-items:center;justify-content:center;text-align:center;max-width: var(--content-width);}
+.h-card{flex-direction:column;align-items:center;justify-content:center;text-align:center;max-width:var(--content-width)}
 .h-card h1{color:var(--content-text-color);font-size:calc(1.5em * var(--scale))}
 .h-card .markdown{padding-left:1rem}
 @media all and (min-width:768px){
 .h-card.row{flex-direction:row;text-align:left}
 .h-card .markdown>h1{padding-top:0}
 }
-.profile{flex-shrink:0;width:180px;height:180px;border-radius:8px;box-shadow:3px 4px 0 var(--shadow);border-radius:8px;overflow:hidden}
+.profile{flex-shrink:0;width:180px;height:180px;border-radius:8px;box-shadow:3px 4px 0 var(--shadow);overflow:hidden}
 @media screen and (min-width:768px){
 .profile{width:220px;height:220px}
 }

@@ -37,12 +37,13 @@ input[type=checkbox]:checked~#TableOfContents{display:block}
 .bio{background-color:var(--feature-background-color)}
 }
 .bio>.markdown p{text-align:left}
-.bio>#card {padding:1rem !important;}
-.bio>.markdown h1 {padding-top: 0 !important;}
+.bio>#card{padding:1rem!important}
+.bio>.markdown h1{padding-top:0!important}
 #article-list{margin:0}
 #article-list li{margin:0;padding:0 0 2em 0;list-style:none;font-family:var(--font-family)}
 @media all and (min-width:768px){
 #article-list li{padding:1em 0 1em 0}
+.bio>#card{padding:2rem!important}
 }
 .article-link{margin:4px 3px 0 0;font-size:calc(1.5em * var(--scale));color:var(--title-color);line-height:1.1;font-weight:700;border-bottom:none}
 .article-link:hover{border-bottom:none;text-shadow:-1px -1px 0 var(--title-color),0 -2px 0 var(--superhero-drop),2px 2px 1px var(--superhero-drop),4px 4px 1px var(--superhero-drop)!important}

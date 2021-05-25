@@ -10,12 +10,13 @@
 @media all and (min-width:2300px){
 :root{--main-width:60em}
 }
-header{background:var(--body-background-color);position:sticky;top:0;z-index:10;width:100%;display:flex;flex-direction:row;justify-content:space-between;align-items:center;height:1em}
+header{background:var(--body-background-color);position:sticky;top:0;z-index:10;width:100%;display:flex;flex-direction:row;justify-content:space-between;align-items:center}
 @media screen and (min-width:768px){
 header{height:60px}
 }
-main{position:relative;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;margin:0 auto;min-height:100vh;width:var(--main-width)}
+main{position:relative;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;margin:0 auto;width:var(--main-width)}
 section{margin:2rem auto 0 auto}
+section#index-card{margin-top:5rem !important}
 section#feed-card{padding:var(--content-padding)}
 .flex{display:flex;align-items:center}
 .row{display:flex;flex-direction:column;justify-content:space-around}
@@ -47,7 +48,7 @@ section#feed-card{padding:var(--content-padding)}
 }
 *{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}
 html{background:var(--html-background-color);scroll-behavior:smooth;position:relative}
-body{background:var(--body-background-color);position:relative;overflow-wrap:break-word;scrollbar-color:var(--scrollbar-thumb) var(--scrollbar-bg);scrollbar-width:thin}
+body{min-height:100vh;background:var(--body-background-color);position:relative;overflow-wrap:break-word;scrollbar-color:var(--scrollbar-thumb) var(--scrollbar-bg);scrollbar-width:thin}
 body::-webkit-scrollbar{width:1em}
 body::-webkit-scrollbar-track{background:var(--scrollbar-bg)}
 body::-webkit-scrollbar-thumb{background-color:var(--scrollbar-thumb);border-radius:6px;border:3px solid var(--scrollbar-border)}
@@ -67,8 +68,6 @@ details{border-radius:8px;padding:.5em .5em 0}
 summary{margin:-.5em -.5em 0;padding:.5em;cursor:pointer}
 details[open]{padding:.5em}
 details[open] summary{margin-bottom:.5em}
-footer{line-height:1.4;padding:1em;width:100%}
-footer .markdown{border-radius:8px;padding:1em 2em;flex:1 1 100%}
 hr{margin:2em 0;width:50%;border:0;height:3px;background:var(--content-text-color);border-radius:1.5px;box-shadow:3px 4px 0 var(--shadow)}
 #centered-footer{width:100%;font-size:.9em;text-align:center;padding-bottom:3rem!important}
 .server{font-family:var(--code-font)}

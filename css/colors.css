@@ -12,7 +12,6 @@
         --superhero-drop: #9fabb8;
         --cta-color: #edddbb;
         --cta-font-color: #111;
-        --coffee-form-color: #babac783;
         --code-text-color: #ffffff;
         --code-block-color: #f3f3f3;
         --code-block-text-color: var(--content-text-color);
@@ -48,7 +47,6 @@
         --superhero-drop: #2b4e7c;
         --cta-color: #d6b6a7;
         --cta-font-color: #111;
-        --coffee-form-color: #edddbb;
         --code-text-color: #f0dbd1;
         --code-block-color: var(--feature-background-color);
         --code-block-text-color: var(--code-text-color);
@@ -56,7 +54,7 @@
         --tag-color: var(--feature-background-color);
         --link-color-underline: #d6b6a7;
         --link-hover-underline: #d6b6a7;
-        --shadow: #121f31;
+        --shadow: #081018;
         --scrollbar-thumb: var(--link-hover-underline);
         --scrollbar-bg: var(--code-block-color);
         --scrollbar-border: var(--html-background-color);
@@ -68,4 +66,9 @@
         --color-bg: #0f0f0f;
         --item-bg: #2b4e7c;
     }
+}
+
+#subscribe {
+    background-color: #E8EAED;
+    color: #1a2539
 }

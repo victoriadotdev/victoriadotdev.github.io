@@ -1,7 +1,8 @@
-#subscribe{width:100%;height:auto;margin:0;justify-content:center}
+#subscribe{width:100%;min-width:var(--main-width);height:auto;margin:2rem auto!important;justify-content:center;align-items:center;padding:2rem 1rem;border-radius:8px;box-shadow:3px 4px 0 var(--shadow)}
 #subscribe input{color:var(--input-color);border:none}
 #subscribe button{cursor:pointer}
 @media screen and (min-width:768px){
 #subscribe{width:auto;height:auto!important;margin-bottom:0}
 }
+#sub-footer{width:100%;min-height:250px}
 #search{margin-top:2rem}
