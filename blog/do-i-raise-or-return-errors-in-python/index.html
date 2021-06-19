@@ -7,7 +7,7 @@
 <span rel=author class="p-author h-card"><img class="u-photo hidden" src=/img/victoria_headshot.jpg>
 <span class="p-name hidden" rel=me>Victoria Drake</span></span><p class=metadata id=date><time class="hidden dt-published">2021-02-09 05:34:48 -0500 -0500</time>
 <a class=u-url href=https://victoria.dev/blog/do-i-raise-or-return-errors-in-python/>February 9, 2021</a>
-<span class=dt-updated>&nbsp;<em>Updated: Jun 18, 2021</em></span>
+<span class=dt-updated>&nbsp;<em>Updated: Jun 19, 2021</em></span>
 <span>&nbsp;4 min read</span></p></p><div class=page-separator><hr></div><div class="markdown e-content"><p>I hear this question a lot: &ldquo;Do I raise or return this error in Python?&rdquo;</p><p>This is probably because the right answer will depend on your situation and the goals of your application logic. Either choice can help you ensure your Python code doesn&rsquo;t fail silently, saving you and your teammates from having to hunt down deeply entrenched errors.</p><p>Here&rsquo;s the difference between <code>raise</code> and <code>return</code> when handling failures in Python, and how to ensure your code doesn&rsquo;t fail silently.</p><h2 id=when-to-raise>When to raise</h2><blockquote><p>The <code>raise</code> statement allows the programmer to force a specific exception to occur. (<a href=https://docs.python.org/3/tutorial/errors.html#raising-exceptions>8.4 Raising Exceptions</a>)</p></blockquote><p>Use <code>raise</code> when you know you want a specific behavior, such as:</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=k>raise</span> <span class=ne>TypeError</span><span class=p>(</span><span class=s2>&#34;Wanted strawberry, got grape.&#34;</span><span class=p>)</span>
 </code></pre></div><p>Raising an exception terminates the flow of your program, allowing the exception to bubble up the call stack. In the above example, this would let you explicitly handle <code>TypeError</code> later. If <code>TypeError</code> goes unhandled, code execution stops and you&rsquo;ll get an <em>unhandled exception</em> message.</p><p>Raise is useful in cases where you want to define a certain behavior to occur. For example, you may choose to disallow certain words in a text field:</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=k>if</span> <span class=s2>&#34;raisins&#34;</span> <span class=ow>in</span> <span class=n>text_field</span><span class=p>:</span>
     <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span><span class=s2>&#34;That word is not allowed here&#34;</span><span class=p>)</span>
@@ -20,7 +20,7 @@
 
 
 <span class=n>s</span> <span class=o>=</span> <span class=n>sandwich_or_bust</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\U0001F35E</span><span class=s2>&#34;</span><span class=p>)</span>
-<span class=k>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
+<span class=nb>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
 <span class=c1># Prints &#34;🍞None🍞&#34; which is not very tasty.</span>
 </code></pre></div><p>To cause the <code>sandwich_or_bust()</code> function to actually bust, add a <code>raise</code>:</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=kn>import</span> <span class=nn>os</span>
 
@@ -33,22 +33,22 @@
 
 
 <span class=n>s</span> <span class=o>=</span> <span class=n>sandwich_or_bust</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\U0001F35E</span><span class=s2>&#34;</span><span class=p>)</span>
-<span class=k>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
+<span class=nb>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
 <span class=c1># ValueError: There is no jam. Sad bread.</span>
 </code></pre></div><p>Any time your code interacts with an external variable, module, or service, there is a possibility of failure. You can use <code>raise</code> in an <code>if</code> statement to help ensure those failures aren&rsquo;t silent.</p><h3 id=raise-in-try-and-except>Raise in <code>try</code> and <code>except</code></h3><p>To handle a possible failure by taking an action if there is one, use a <code>try</code> &mldr; <code>except</code> statement.</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=k>try</span><span class=p>:</span>
     <span class=n>s</span> <span class=o>=</span> <span class=n>sandwich_or_bust</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\U0001F35E</span><span class=s2>&#34;</span><span class=p>)</span>
-    <span class=k>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
+    <span class=nb>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
 <span class=k>except</span> <span class=ne>ValueError</span><span class=p>:</span>
     <span class=n>buy_more_jam</span><span class=p>()</span>
     <span class=k>raise</span>
 </code></pre></div><p>This lets you <code>buy_more_jam()</code> before re-raising the exception. If you want to propagate a caught exception, use <code>raise</code> without arguments to avoid possible loss of the stack trace.</p><p>If you don&rsquo;t know that the exception will be a <code>ValueError</code>, you can also use a bare <code>except:</code> or catch any derivative of the <code>Exception</code> class with <code>except Exception:</code>. Whenever possible, it&rsquo;s better to raise and handle exceptions explicitly.</p><p>Use <code>else</code> for code to execute if the <code>try</code> does not raise an exception. For example:</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=k>try</span><span class=p>:</span>
     <span class=n>s</span> <span class=o>=</span> <span class=n>sandwich_or_bust</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\U0001F35E</span><span class=s2>&#34;</span><span class=p>)</span>
-    <span class=k>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
+    <span class=nb>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
 <span class=k>except</span> <span class=ne>ValueError</span><span class=p>:</span>
     <span class=n>buy_more_jam</span><span class=p>()</span>
     <span class=k>raise</span>
 <span class=k>else</span><span class=p>:</span>
-    <span class=k>print</span><span class=p>(</span><span class=s2>&#34;Congratulations on your sandwich.&#34;</span><span class=p>)</span>
+    <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;Congratulations on your sandwich.&#34;</span><span class=p>)</span>
 </code></pre></div><p>You could also place the print line within the <code>try</code> block, however, this is less explicit.</p><h2 id=when-to-return>When to return</h2><p>When you use <code>return</code> in Python, you&rsquo;re giving back a value. A function returns to the location it was called from.</p><p>While it&rsquo;s more idiomatic to <code>raise</code> errors in Python, there may be occasions where you find <code>return</code> to be more applicable.</p><p>For example, if your Python code is interacting with other components that do not handle exception classes, you may want to return a message instead. Here&rsquo;s an example using a <code>try</code> &mldr; <code>except</code> statement:</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=kn>from</span> <span class=nn>typing</span> <span class=kn>import</span> <span class=n>Union</span>
 
 
@@ -61,7 +61,7 @@
 
 
 <span class=n>s</span> <span class=o>=</span> <span class=n>share_sandwich</span><span class=p>(</span><span class=mi>1</span><span class=p>)</span>
-<span class=k>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
+<span class=nb>print</span><span class=p>(</span><span class=n>s</span><span class=p>)</span>
 <span class=c1># Prints &#34;division by zero&#34;</span>
 </code></pre></div><p>Note that when you return an <code>Exception</code> class object, you&rsquo;ll get a representation of its associated value, usually the first item in its list of arguments. In the example above, this is the string explanation of the exception. In some cases, it may be a tuple with other information about the exception.</p><p>You may also use <code>return</code> to give a specific error object, such as with <a href=https://docs.djangoproject.com/en/3.1/ref/request-response/#httpresponse-subclasses><code>HttpResponseNotFound</code> in Django</a>. For example, you may want to return a <code>404</code> instead of a <code>403</code> for security reasons:</p><div class=highlight><pre class=chroma><code class=language-python data-lang=python><span class=k>if</span> <span class=nb>object</span><span class=o>.</span><span class=n>owner</span> <span class=o>!=</span> <span class=n>request</span><span class=o>.</span><span class=n>user</span><span class=p>:</span>
     <span class=k>return</span> <span class=n>HttpResponseNotFound</span>
